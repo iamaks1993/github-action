@@ -29,7 +29,5 @@ jobs:
       - name: Install packages
         run: |
           composer install
-          npm ci
-          npm run build
       - name: Execute tests (Unit and Feature tests) via PHPUnit
         run: "./vendor/bin/pest"
