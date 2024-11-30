@@ -1,0 +1,25 @@
+{
+    "name": "user/github-action",
+    "autoload": {
+        "files": [
+            "src/Helpers/helpers.php"
+        ],
+        "psr-4": {
+            "User\\GithubAction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Akshay Mahajan",
+            "email": "akshay.iihglobal@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^3.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
